@@ -866,6 +866,11 @@ input:focus {
     height: 150px;
 }
 
+.col img:hover{
+    width: 150px;
+    height: 150px;
+}
+
 .col h3 {
     font-size: 15px;
 }
