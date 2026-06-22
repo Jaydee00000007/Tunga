@@ -565,7 +565,7 @@ input:focus {
 }
 
 .cont_list button{
-    width: 30px;
+    width: 50px;
     height: 30px;
     border-radius: 50%;
     background-color: transparent;
@@ -583,6 +583,7 @@ input:focus {
     width: 10px;
     height: 10px;
     text-align: center;
+    translate: -9px -3px;
 }
 
 
