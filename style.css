@@ -236,6 +236,96 @@ input:focus {
     margin-bottom: 10px;
 }
 
+
+/* MENU */
+.menu{
+    background-color: #d6dfd6;
+    width: 90%;
+    margin: auto;
+    padding: 5px 10px;
+    position: absolute;
+    translate: 100px -725px;
+    z-index: 10; 
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 3px rgb(1, 21, 4);
+    left: -1900px; 
+    transition: left 1s ease 0s;
+}
+
+.menu.open{
+    left: 0px; 
+}
+ 
+.fname, .fprice{
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.menu-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+.menu-header h5{
+    font-size: 2rem;
+    font-weight: 200;
+    color: #056505;
+}
+
+
+.rmenu{
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 15px px;
+    justify-content: center;
+    align-items: center;
+    grid-auto-flow: row;
+    padding: 0;
+    margin: 0;
+
+}
+
+#fd-s{
+    align-items: center;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#fd-s img{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.addbtn button{
+    width: 60%;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(223, 62, 3, 0.984);
+    border-radius: 20px;
+    border: 0px;
+}
+
+.addbtn button:hover{
+    background-color: rgba(223, 62, 3, 0.466);
+    box-shadow: 0px 0px 15px 3px rgba(1, 21, 4, 0.56);
+    transition: background-color 1s ease 0s, box-shadow 0.5s ease-in 0.1s ;
+}
+
+.close-menu{
+    background: none;
+    border: none;
+    color: #ef4444;
+    cursor: pointer;
+    font-size: 2.1rem;
+}
+
+.close-menu:hover{
+    color: #949494;
+}
+
 /* Testimonies */
 
 #testimonies_s{
@@ -1150,6 +1240,39 @@ input:focus {
 
 .close-btn {
     translate: 0px -7px;
+}
+
+/* MENU */
+
+.menu {
+    width: 100%;
+    padding: 5px 10px;
+    translate: 0px -890px;
+    left: -1900px;
+}
+
+#fd-s {
+    align-items: center;
+    text-align: center;
+    padding: 4px 0px;
+}
+
+#fd-s img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.rmenu {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 14px 7px;
+    justify-content: center;
+    align-items: center;
+    grid-auto-flow: row;
+    padding: 0;
+    margin: 0;
 }
 
 }
