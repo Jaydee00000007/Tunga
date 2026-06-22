@@ -966,11 +966,29 @@ input:focus {
     font-weight: bold;
 }
 
-.cont_list button {
-    background-color: none;
-    width: 20px;
+.cont_list blur{
+    width: 8px;
+    height: 8px;
+}
+
+.cont_list button img{
+    width: 8px;
+    height: 8px;
+    text-align: center;
+    translate: -2px -3px;
+}
+
+.cont_list button{
+    width: 30px;
     height: 20px;
 }
+
+.cont_list .blur{
+    margin-left: 8px;
+    height: 25px;
+    width: 25px;
+}
+
 
 .cont_list p {
     display: none;
