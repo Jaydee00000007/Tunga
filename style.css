@@ -550,7 +550,20 @@ input:focus {
     margin: 10px 0px;
 }
 
+/* CONTACT */
 
+#contact_s{
+    background-image: url(images/bg\ contact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0px;
+    margin-top: 90px;
+}
+
+.sub_c1{
+    color: orangered;
+}
 
 #contact{
     display: flex;
@@ -634,6 +647,7 @@ input:focus {
     display: flex;
     flex-direction: column;
     gap: 6px;
+    color: orangered;
 }
 
 .cont_list{
@@ -655,7 +669,7 @@ input:focus {
 }
 
 .cont_list button{
-    width: 50px;
+    width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: transparent;
@@ -663,17 +677,18 @@ input:focus {
     text-align: center;
 }
 
-.cont_list .blur{
+.cont_list button.blur{
     height: 30px;
     width: 30px;
     border-radius: 50%;
+    background-color: orangered;
 }
 
 .cont_list button img{
     width: 10px;
     height: 10px;
     text-align: center;
-    translate: -9px -3px;
+    translate: 0 -2px;
 }
 
 
