@@ -553,7 +553,7 @@ input:focus {
 /* CONTACT */
 
 #contact_s{
-    background-image: url(images/bg\ contact.jpg);
+    background-image: linear-gradient(rgba(10, 73, 21, 0.5), rgba(2, 7, 2, 0.5)), url(images/bg\ contact.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
